@@ -114,13 +114,7 @@ export function Testimonials() {
                             </div>
                           </div>
                           <div className="overflow-hidden rounded-full bg-slate-50">
-                            <Image
-                              className="h-14 w-14 object-cover"
-                              src={testimonial.author.image}
-                              alt="picture of the testimonial author"
-                              width={56}
-                              height={56}
-                            />
+                            
                           </div>
                         </figcaption>
                       </figure>
