@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      mogra: ['Mogra', 'cursive'],
+    },
   },
+  
   plugins: [],
 }
