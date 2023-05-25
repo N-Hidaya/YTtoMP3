@@ -5,9 +5,6 @@ A YouTube to MP3 converter
 
 This example is powered by the following services:
 
-- [Replicate](https://replicate.com) (AI API)
-- [Upload](https://upload.io) (storage)
+- [rapidapi](https://rapidapi.com) (API)
 - [Vercel](https://vercel.com) (hosting, serverless functions, analytics)
-- [Auth.js](https://authjs.dev/) + [Neon](https://neon.tech/) (auth + DB)
-- [Upstash](https://upstash.com/) Redis (rate limiting)
 
