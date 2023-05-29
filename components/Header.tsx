@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import icon from '../images/icon.png'
+import icon from '../public/headphone.png'
 
 export default function Header({ photo }: { photo?: string | undefined }) {
   return (
