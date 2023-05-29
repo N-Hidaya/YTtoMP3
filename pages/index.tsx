@@ -33,13 +33,16 @@ const Home: NextPage = () => {
         }, 1000);
       }
       fetchData();
-      setLoading(false);
-    }
+     }
   }, [id]);
 
   useEffect(() => {
     if(response){
       window.location.href = response.link;
+      setTimeout(() => setLoading(false), 1000);
+      setTimeout(() => window.location.reload(), 1000);
+
+
     }
    
   }, [response])
