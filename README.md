@@ -1,7 +1,7 @@
 # YTtoMP3
 
 A YouTube to MP3 converter
-Website: yt2music.com
+Website: [YT2MUSIC] (https://yt2music.com)
 ## Powered by
 
 This example is powered by the following services:
