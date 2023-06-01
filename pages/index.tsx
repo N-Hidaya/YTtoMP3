@@ -6,6 +6,7 @@ import SquigglyLines from "../components/SquigglyLines";
 import { Testimonials } from "../components/Testimonials";
 import { useEffect, useState } from "react";
 import { fetch } from "./api/APIreq"
+import Link from "next/link";
 
 const Home: NextPage = () => {
 
@@ -101,6 +102,12 @@ const Home: NextPage = () => {
           
         
          
+        </div>
+        <div className=" gap-4 flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
+          <p className="text-[#F0F8FF]  mx-auto mt-12 max-w-xl text-lg leading-7">Need to download videos instead? Try the different server here:</p>
+          <Link href={"/convertall"}>
+          <button className="transition text-xl text-pink-50 ease-in-out px-4 py-2 rounded-full bg-indigo-500 hover:bg-indigo-100 hover:text-pink-400 font-mogra">Download YouTube / Facebook / Instagram / Twitter / SoundCloud / Twitch videos</button>
+          </Link>
         </div>
       </main>
       <Testimonials />
