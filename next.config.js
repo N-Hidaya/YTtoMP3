@@ -9,7 +9,9 @@ module.exports = {
   env: {
     NEXT_ID: process.env.NEXT_ID,
     NEXT_API_KEY: process.env.NEXT_API_KEY,
-    NEXT_API_HOST: process.env.NEXT_API_HOST
+    NEXT_API_HOST: process.env.NEXT_API_HOST,
+    
+    NEXT_ADSENSE: process.env.NEXT_ADSENSE
   },
   async redirects() {
     return [
