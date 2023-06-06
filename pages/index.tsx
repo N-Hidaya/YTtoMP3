@@ -109,6 +109,14 @@ const Home: NextPage = () => {
           <button className="transition text-xl text-pink-50 ease-in-out px-4 py-2 rounded-full bg-indigo-500 hover:bg-indigo-100 hover:text-pink-400 font-mogra">Download YouTube / Facebook / Instagram / Twitter / SoundCloud / Twitch videos</button>
           </Link>
         </div>
+
+        <p className="text-[#F0F8FF]  mx-auto mt-12 max-w-4xl text-lg leading-7">
+        Convert YouTube videos to MP3 and MP4 formats with ease. Our website offers a fast and reliable solution to transform your favorite YouTube content into downloadable audio and video files. 
+        Whether you want to enjoy music on the go or save captivating videos for offline viewing, we've got you covered.
+        </p>
+        <p className="text-[#F0F8FF]  mx-auto mt-12 max-w-4xl text-lg leading-7">
+        Experience the convenience of converting YouTube videos to MP3 and MP4 formats effortlessly. Start using our YouTube Converter today and enjoy your favorite content anytime, anywhere!
+        </p>
       </main>
       <Testimonials />
       <Footer />

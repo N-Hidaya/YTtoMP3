@@ -11,9 +11,18 @@ export default function Header({ photo }: { photo?: string | undefined }) {
         </h1>
       </Link>
       
+      <Link href="/">
+        <h3 className="text-[#F0F8FF] sm:text-xl text-xl font-mogra ml-2">Home</h3>
+      </Link>
+      <Link href="/howto">
+        <h3 className="text-[#F0F8FF] sm:text-xl text-xl font-mogra ml-2">How to Use?</h3>
+      </Link>
+      <Link href="/about">
+        <h3 className="text-[#F0F8FF] sm:text-xl text-xl font-mogra ml-2">About</h3>
+      </Link>
     
           <Image
-            alt="Vercel Icon"
+            alt="Icon"
             src={icon}
             className="max-w-xs max-h-xs"
             width={100}
